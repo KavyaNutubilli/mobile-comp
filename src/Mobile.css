@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    color: rgb(138, 5, 96);
+}
+
+.box{
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 3fr 5fr 3fr;
+    column-gap: 2em;
+    padding: 20px;
+    border: 1px solid gray;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 20px;
+}
+
+#photo{
+    display: flex;
+    justify-content: center;
+}
+
+#fav{
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+#name{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+#name:hover{
+    color: rgb(103, 103, 246);
+}
+
+.para{
+    line-height: 30px;
+}
+
+.btn{
+    border: 2px solid rgb(235, 150, 52);
+    background-color: rgb(235, 150, 52);
+    color: black;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 530;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#cost{
+    font-weight: 500;
+    font-size: 25px;
+    padding-right: 20px;
+}
+  
+#image{
+    width: 70px;
+    height: 20px;
+} 
+
+#price{
+    line-height: 15px;
+}
+
+#offer{
+    color: rgb(62, 198, 62);
+    font-size: 15px;
+    font-weight: 600;
+}
